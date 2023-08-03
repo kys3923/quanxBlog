@@ -40,4 +40,4 @@ The final goal is to create functional personal website with blog functionality.
 - Use React/icons to import all the icons
 
 ## Reference Website
-[fifty coffees](https://http://www.fiftycoffees.com/)
+[fifty coffees](https://www.fiftycoffees.com/)
