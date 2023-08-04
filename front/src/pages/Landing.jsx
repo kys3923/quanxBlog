@@ -14,7 +14,7 @@ const Landing = (props) => {
       className="w-full h-[100vh] bg-cover bg-center bg-white/20 bg-blend-screen flex flex-col items-center justify-center px-16"
     >
       <p className='font-Lobster text-6xl text-black'>My Todo App</p>
-      <input type='text' value={inputtedText} onChange={inputChangeHandler} className='w-full max-w-lg mt-4 px-4 py-1 rounded-lg focus:border-none text-sm' />
+      <input type='text' value={inputtedText} onChange={inputChangeHandler} className='w-full max-w-lg mt-4 px-4 py-1 rounded-lg focus:border-none text-sm' placeholder='Search todos... '/>
     </div>
   );
 }

@@ -19,6 +19,7 @@ app.get('/', (req, res) => {
 })
 
 app.use('/auth', require('./routes/auth'))
+app.use('/todos', require('./routes/todos'))
 
 let server = app.listen(process.env.PORT || 8000, () => console.log(`server is runnding at 8000`))
 
